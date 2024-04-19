@@ -1,0 +1,13 @@
+<section>
+    <h1>TECHNOLOGIES AND TOOLS</h1>
+    <ul>
+        {%- for skill in skills -%}
+        <li>
+            <span>{{ skill.category }}</span>
+            <span>
+                {{ skill.contents.join(', ') }}
+            </span>
+        </li>
+        {%- endfor -%}
+    </ul>
+</section>

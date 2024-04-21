@@ -1,17 +1,17 @@
 <section>
   <h1>EXPERIENCE</h1>
-  <ul>
+  <ul class="experience">
     {%- for experience in collections.experience -%}
-    <li>
-      <h2>{{ experience.data.employer }}</h2>
-      <h3>{{ experience.data.position }}</h3>
-      <span>{{ experience.data.dates }}</span>
-      <ul>
-        {%- for item in experience.data.accomplishments -%}
-        <li>{{ item }}</li>
-        {%- endfor -%}
-      </ul>
-    </li>
+      <li>
+        <h2>{{ experience.data.employer }}</h2>
+        <h3>{{ experience.data.position }}</h3>
+        <span>{{ experience.data.dates }}</span>
+        <ul>
+          {%- for item in experience.data.accomplishments -%}
+            <li>{{ item }}</li>
+          {%- endfor -%}
+        </ul>
+      </li>
     {%- endfor -%}
   </ul>
 </section>

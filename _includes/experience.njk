@@ -1,13 +1,13 @@
 <section>
-  <h1>{{ experienceTitle }}</h1>
+  <h1>{{ experience.sectionTitle }}</h1>
   <ul>
-    {%- for exp in experience -%}
+    {%- for entry in experience.entries -%}
       <li class="bottom-space">
-        <h2>{{ exp.employer }}</h2>
-        <h3>{{ exp.position }}</h3>
-        <span>{{ exp.dates }}</span>
+        <h2>{{ entry.employer }}</h2>
+        <h3>{{ entry.position }}</h3>
+        <span>{{ entry.dates }}</span>
         <ul class="bullet-list">
-          {%- for item in exp.accomplishments -%}
+          {%- for item in entry.accomplishments -%}
             <li>{{ item }}</li>
           {%- endfor -%}
         </ul>

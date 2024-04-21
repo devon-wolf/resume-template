@@ -1,7 +1,7 @@
 <section>
-    <h1>{{ skillsTitle }}</h1>
+    <h1>{{ skills.sectionTitle }}</h1>
     <ul class="skills">
-        {%- for skill in skills -%}
+        {%- for skill in skills.entries -%}
             <li class="two-col offset">
                 <h3>{{ skill.category }}</h3>
                 <span>

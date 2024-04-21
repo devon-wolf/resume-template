@@ -1,10 +1,10 @@
 <section>
-  <h1>{{ educationTitle }}</h1>
+  <h1>{{ education.sectionTitle }}</h1>
   <ul class="two-col">
-    {%- for school in education -%}
+    {%- for entry in education.entries -%}
       <li>
-        <h2>{{ school.name }}</h2>
-        {%- for item in school.descriptionLines -%}
+        <h2>{{ entry.name }}</h2>
+        {%- for item in entry.descriptionLines -%}
           <div>{{ item }}</div>
         {%- endfor -%}
       </li>

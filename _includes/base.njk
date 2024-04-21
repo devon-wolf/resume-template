@@ -9,8 +9,8 @@
   </head>
   <body>
     <header>
-      <h1>{{ name }}</h1>
-      <div class="contact">
+      <h1 class="margin-bottom-1">{{ name }}</h1>
+      <div class="col-end-align">
         {%- for contact in contactDetails -%}
           <a href="{{ contact.url }}">{{ contact.text }}</a>
         {%- endfor -%}

@@ -2,7 +2,7 @@
     <h1>TECHNOLOGIES AND TOOLS</h1>
     <ul class="skills">
         {%- for skill in collections.skills -%}
-            <li class="two-col">
+            <li class="two-col offset">
                 <h3>{{ skill.data.category }}</h3>
                 <span>
                     {{ skill.data.contents.join(', ') }}

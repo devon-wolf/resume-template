@@ -1,11 +1,11 @@
 <section>
     <h1>Technologies and Tools</h1>
     <ul class="skills">
-        {%- for skill in collections.skills -%}
+        {%- for skill in skills -%}
             <li class="two-col offset">
-                <h3>{{ skill.data.category }}</h3>
+                <h3>{{ skill.category }}</h3>
                 <span>
-                    {{ skill.data.contents.join(', ') }}
+                    {{ skill.contents.join(', ') }}
                 </span>
             </li>
         {%- endfor -%}

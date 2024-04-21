@@ -1,10 +1,10 @@
 <section>
   <h1>Education</h1>
   <ul class="two-col">
-    {%- for school in collections.education -%}
+    {%- for school in education -%}
       <li>
-        <h2>{{ school.data.name }}</h2>
-        {%- for item in school.data.description -%}
+        <h2>{{ school.name }}</h2>
+        {%- for item in school.descriptionLines -%}
           <div>{{ item }}</div>
         {%- endfor -%}
       </li>

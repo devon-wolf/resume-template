@@ -1,5 +1,5 @@
 ---
 tags: skills
 category: Databases
-contents: [PostgreSQL, MySQL/MariaDB, SQLite, MongoDB]
+contents: ["PostgreSQL", "MySQL/MariaDB", "SQLite", "MongoDB"]
 ---

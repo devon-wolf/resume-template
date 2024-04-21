@@ -1,5 +1,5 @@
 ---
 tags: skills
 category: Programming Languages
-contents: [TypeScript, Javascript, HTML, CSS, Python]
+contents: ["TypeScript", "Javascript", "HTML", "CSS", "Python"]
 ---

@@ -8,14 +8,7 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <header class="bottom-space">
-      <h1>{{ name }}</h1>
-      <div class="col-end-align">
-        {%- for contact in contactDetails -%}
-          <a href="{{ contact.url }}">{{ contact.text }}</a>
-        {%- endfor -%}
-      </div>
-    </header>
+    {% include "header.njk" %}
     <main>
       {% include "experience.njk" %}
       {% include "education.njk" %}

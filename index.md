@@ -11,6 +11,7 @@ contactDetails:
     text: LinkedIn
   - url: https://github.com
     text: GitHub
+experienceTitle: Experience
 experience:
   - employer: Big Company
     position: Software Engineer
@@ -33,6 +34,7 @@ experience:
       - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+educationTitle: Education
 education:
   - name: State University
     descriptionLines:
@@ -41,6 +43,7 @@ education:
   - name: Training Program
     descriptionLines:
       - Certificate, Thing You Trained In
+skillsTitle: Technologies and Tools
 skills:
   - category: Languages
     contents:

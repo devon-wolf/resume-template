@@ -1,0 +1,8 @@
+<header>
+    <h1>{{ name }}</h1>
+    <div class="col-end-align">
+        {%- for contact in contactDetails -%}
+            <a href="{{ contact.url }}">{{ contact.text }}</a>
+        {%- endfor -%}
+    </div>
+</header>

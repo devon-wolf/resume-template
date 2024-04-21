@@ -8,8 +8,8 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <header>
-      <h1 class="margin-bottom-1">{{ name }}</h1>
+    <header class="bottom-space">
+      <h1>{{ name }}</h1>
       <div class="col-end-align">
         {%- for contact in contactDetails -%}
           <a href="{{ contact.url }}">{{ contact.text }}</a>

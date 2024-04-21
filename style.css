@@ -3,10 +3,9 @@
 
   --background: white;
   --text: black;
-  --section-title: #50786b;
-  --entry-title: #2d3746;
-  --accent-text: #94405b;
-  --link: #2d3746;
+  --primary: #2d3746;
+  --secondary: #50786b;
+  --accent: #94405b;
 }
 
 body {
@@ -23,17 +22,18 @@ h3 {
 }
 
 section > h1 {
-  color: var(--section-title);
-  font-size: 0.8rem;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-variant-caps: all-small-caps;
 }
 
-section h2 {
-  color: var(--entry-title);
+h2 {
+  color: var(--primary);
   font-size: 1.25rem;
 }
 
-section h3 {
-  color: var(--accent-text);
+h3 {
+  color: var(--accent);
   font-weight: 500;
   font-size: 1rem;
 }
@@ -56,7 +56,7 @@ header {
 
 a:link,
 a:visited {
-  color: var(--link);
+  color: var(--primary);
 }
 
 .col-end-align {
@@ -70,7 +70,7 @@ a:visited {
   padding-left: 1rem;
 }
 
-.margin-bottom-1 {
+.bottom-space {
   margin-bottom: 1rem;
 }
 

@@ -1,9 +1,10 @@
 ---
 layout: base.njk
-title: Your Name | Resume
+title: Your Name | Resume # not relevant if only printing to PDF; this is the title of the browser tab
 name: Your Name
 
 contactDetails:
+  # include any means of contact you like
   - url: mailto:youremail@example.com
     text: youremail@example.com
   - url: tel:+12345678912
@@ -16,6 +17,7 @@ contactDetails:
 experience:
   sectionTitle: Experience
   entries:
+    # include any roles or projects you like
     - employer: Big Company
       position: Software Engineer
       dates: 2023 - 2024
